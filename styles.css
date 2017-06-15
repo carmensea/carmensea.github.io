@@ -43,3 +43,19 @@ nav.menu li {
 nav.menu li a:hover{
   background-color: #111;
 }
+
+p.heavy {
+  width: 40%;
+  padding: 2%;
+}
+
+h4#samps {
+  padding: 5.5% 0% 0% 4%;
+  margin: 0% 0% 0% 9%;
+}
+
+table#table{
+  background-color: #B0D9AF;
+  margin: 0px 220px 0px;
+  opacity: .85;
+}
