@@ -1,8 +1,18 @@
 body {
-  background-color: teal;
+  padding: 3%;
+  background-image: url("http://az616578.vo.msecnd.net/files/2017/01/16/636201270729141317554774038_magic%20music2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-img.notes{
-  display: block;
-  margin: auto;
+section.good-play {
+	display: inline-block;
+  vertical-align: top;
+  border: solid;
+  width: 29%;
+  height: 250px;
+  margin: 2% 0% 0% 0%;
+  padding: .5%;
 }
