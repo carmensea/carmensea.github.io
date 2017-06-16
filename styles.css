@@ -117,6 +117,7 @@ p.p-table{
   padding: .5%;
   opacity: .85;
   margin: .5% 0 0 13%;
+  z-index: -1;
 }
 
 table#table{
