@@ -1,6 +1,6 @@
 /*nav bar styling*/
-.music-table h2{
-  margin: .5% 30% 0 28%;
+h2.table {
+  margin: 0% 25%;
 }
 
 nav.menu ul {
@@ -57,6 +57,9 @@ section.parent{
 }
 
 .child-one{
+  background-color: #B4E0AF;
+  z-index: -1;
+  opacity: .85;
   -webkit-flex-grow: 2;
   -webkit-flex-shrink: 2;
   -webkit-flex-basis: 10em;
@@ -70,6 +73,9 @@ section.parent{
   -webkit-flex-grow: 2;
   -webkit-flex-shrink: 2;
   -webkit-flex-basis: 10em;
+  background-color: #B4E0AF;
+  opacity: .85;
+  z-index: -1;
   margin: .5% 0 0 0;
   float: left;
   border: solid;
@@ -91,18 +97,36 @@ p.heavy {
 
 
 section.music-table{
+  display: flex;
+  list-style: none;
   margin: 1%;
 }
 
+section.music-intro{
+  display: flex;
+  list-style: none;
+  margin: 1% 50% 0 10%;
+}
 p.p-table{
-  margin: 0%;
-  width: 40%;
+  -webkit-flex-grow: 2;
+  -webkit-flex-shrink: 2;
+  -webkit-flex-basis: 10em;
+  background-color: #CF9FCF;
+  border: solid;
+  border-width: 2px;
+  padding: .5%;
+  opacity: .85;
+  margin: .5% 0 0 13%;
 }
 
 table#table{
-  background-color: #B0D9AF;
-  margin: 0px 220px 0px;
+  -webkit-flex-grow: 2;
+  -webkit-flex-shrink: 2;
+  -webkit-flex-basis: 10em;
+  background-color: #CF9FCF;
+  margin: 1% 20% 0 3%;
   opacity: .85;
+  z-index: -1;
 }
 
 @media (max-width: 500px){
