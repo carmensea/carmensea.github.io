@@ -1,7 +1,8 @@
 /*nav bar styling*/
+.music-table h2{
+  margin: .5% 30% 0 28%;
+}
 
-h3 {
-  margin: 9% 0 0 0; } 
 nav.menu ul {
   position: fixed;
   top: 0;
@@ -52,20 +53,31 @@ body {
 section.parent{
   display: flex;
   list-style: none;
+  margin: 0 37% 0 0;
 }
 
 .child-one{
   -webkit-flex-grow: 2;
   -webkit-flex-shrink: 2;
   -webkit-flex-basis: 10em;
-  margin: .5% 10% 0 0;
+  margin: .5% 1% 0 0;
   float: left;
   border: solid;
   padding: .5%;
 }
 
+.child-two{
+  -webkit-flex-grow: 2;
+  -webkit-flex-shrink: 2;
+  -webkit-flex-basis: 10em;
+  margin: .5% 0 0 0;
+  float: left;
+  border: solid;
+  padding: .5%;
+}
+
+
 .flex{
-  width: 40%;
 }
 
 /*.clearfix {
@@ -82,7 +94,8 @@ section.music-table{
   margin: 1%;
 }
 
-section.music-table p{
+p.p-table{
+  margin: 0%;
   width: 40%;
 }
 
@@ -94,6 +107,9 @@ table#table{
 
 @media (max-width: 500px){
   p {
+    font-size: .7em;
+  }
+  li {
     font-size: .7em;
   }
 }
