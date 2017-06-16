@@ -49,19 +49,28 @@ body {
   background-size: cover;
 }
 
-section.good-play {
-  margin: .5% .5% 0; .5%
-	display: block;
+section.parent{
+  display: flex;
+  list-style: none;
+}
+
+.child-one{
+  -webkit-flex-grow: 2;
+  -webkit-flex-shrink: 2;
+  -webkit-flex-basis: 10em;
+  margin: .5% 10% 0 0;
   float: left;
   border: solid;
-  width: 29%;
-  height: 250px;
   padding: .5%;
 }
 
-.clearfix {
-  clear: both;
+.flex{
+  width: 40%;
 }
+
+/*.clearfix {
+  clear: both;
+}*/
 
 p.heavy {
   width: 40%;
@@ -81,4 +90,10 @@ table#table{
   background-color: #B0D9AF;
   margin: 0px 220px 0px;
   opacity: .85;
+}
+
+@media (max-width: 500px){
+  p {
+    font-size: .7em;
+  }
 }
