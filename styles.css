@@ -1,22 +1,7 @@
-body {
-  margin: 0;
-  background-image: url("http://az616578.vo.msecnd.net/files/2017/01/16/636201270729141317554774038_magic%20music2.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+/*nav bar styling*/
 
-section.good-play {
-	display: inline-block;
-  vertical-align: top;
-  border: solid;
-  width: 29%;
-  height: 250px;
-  margin: 3.5% 0% 0% 1%;
-  padding: .5%;
-}
-
+h3 {
+  margin: 9% 0 0 0; } 
 nav.menu ul {
   position: fixed;
   top: 0;
@@ -34,6 +19,8 @@ nav.menu li{
 
 nav.menu li {
   display: block;
+  font-family: helvetica;
+  font-size: 1.5em;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -41,7 +28,39 @@ nav.menu li {
 }
 
 nav.menu li a:hover{
-  background-color: #111;
+  background-color: pink;
+}
+
+nav.menu li a:visited{
+  color: purple;
+}
+
+main.content{
+  margin: 67px;
+}
+/*body styling*/
+
+body {
+  margin: 0;
+  background-image: url("http://az616578.vo.msecnd.net/files/2017/01/16/636201270729141317554774038_magic%20music2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.good-play {
+  margin: .5% .5% 0; .5%
+	display: block;
+  float: left;
+  border: solid;
+  width: 29%;
+  height: 250px;
+  padding: .5%;
+}
+
+.clearfix {
+  clear: both;
 }
 
 p.heavy {
@@ -49,9 +68,13 @@ p.heavy {
   padding: 2%;
 }
 
-h4#samps {
-  padding: 5.5% 0% 0% 4%;
-  margin: 0% 0% 0% 9%;
+
+section.music-table{
+  margin: 1%;
+}
+
+section.music-table p{
+  width: 40%;
 }
 
 table#table{
