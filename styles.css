@@ -8,9 +8,14 @@ body {
 }
 h1, h2{
   text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
 }
 h1{
   margin: 15% 0 0 0; 
+}
+
+li{
+  font-family: 'Patrick Hand SC', cursive;
 }
 
 header{
@@ -19,7 +24,8 @@ header{
 p{
   margin: 0 auto;
   background-color: #B4E0AF;
-  padding: 1%
+  padding: 1%;
+  font-family: 'Patrick Hand SC', cursive;
 }
 
 .paragraphs{
@@ -39,10 +45,11 @@ img.cassette{
 main.content{
   min-width: 200px;
   width: 60%;
-  margin: 2%
+  margin: 2%;
 }
 /*nav bar styling*/
 nav.menu ul {
+  font-family: 'Patrick Hand SC', cursive;
   z-index: 10;
   position: fixed;
   top: 0;
@@ -57,19 +64,26 @@ nav.menu ul {
 nav.menu li {
   float: left;
   display: block;
-  font-family: helvetica;
+  padding: 14px 16px;
+}
+
+nav.menu li:hover{
+  background-color: #8cb78e;
+}
+
+nav.menu li a{
   font-size: 1.5em;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none
+  font-family: 'Patrick Hand SC', cursive;
+  text-decoration: none;
 }
 
 nav.menu li a:hover{
-  background-color: pink;
 }
 
 nav.menu li a:visited{
+  font-family: 'Patrick Hand SC', cursive;
   color: purple;
 }
 
@@ -93,6 +107,8 @@ section.parent{
   float: left;
   padding: 1%;
   width: 100%;
+  font-family: 'Patrick Hand SC', cursive;
+
 }
 
 .child-two{
@@ -105,6 +121,8 @@ section.music-intro{
   background-color: #B4E0AF;
   opacity: .75;
   z-index: -1;
+  font-family: 'Patrick Hand SC', cursive;
+
 }
 
 table#table{
@@ -121,6 +139,10 @@ table#table{
 tr,td, th{
   border: 1px solid
 }
+
+p.final, li.final{
+  font-family: 'Exo', sans-serif;
+}
 /*Large Devices - desktops*/
 @media (max-width: 1200px){
   h2{
@@ -128,6 +150,7 @@ tr,td, th{
   }
 }
 
+/*Medium Devices*/
 @media (max-width: 992px){
   main.content{
     margin: 9% 0 0 0 
@@ -153,6 +176,7 @@ tr,td, th{
   }
 }
 
+/*Small devices*/
 @media (max-width: 768px){
   main.content{
     margin: 15% 0 0 0
@@ -187,12 +211,14 @@ tr,td, th{
   }
 }
 
+/*Custom break content*/
 @media (max-width: 400px){
   main.content{
     margin: 20% 0 0 0
   }
 }
 
+/*Custom*/
 @media (max-width: 300px){
   main.content{
     margin: 30% 0 0 0
