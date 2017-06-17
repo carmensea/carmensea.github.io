@@ -214,7 +214,8 @@ p.final, li.final{
 /*Custom break content*/
 @media (max-width: 400px){
   main.content{
-    margin: 20% 0 0 0
+    margin: 20% 0 0 0;
+    width: 100%
   }
 }
 
